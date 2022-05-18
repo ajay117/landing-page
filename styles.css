@@ -11,7 +11,6 @@ html {
 header {
     justify-content: space-around;
     align-items: center;
-    margin: -10px 0;
     background-color: #1F2937;
 }
 header ul {
@@ -28,6 +27,7 @@ header a {
 }
 .logo {
     font-size: 24px;
+    margin: 16px;
     color: #F9FAF8;
 }
 .flex {
