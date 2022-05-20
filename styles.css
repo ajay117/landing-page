@@ -39,9 +39,9 @@ header a {
     display: flex;
 }
 .hero {
-    height: 450px;
     display: flex;
     align-items: center;
+    padding: 50px 0 100px;
 }
 .hero-section {
     justify-content: space-between;
@@ -66,7 +66,7 @@ header a {
     margin: 10px 0;
 }
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 .bg-dark {
@@ -81,4 +81,32 @@ header a {
     font-size: 18px;
     margin-top: 10px;
     font-weight: 400;
+}
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+.box {
+    max-width: 150px;
+}
+/* .box p {
+    color: #1f2937;
+} */
+.info .img {
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.info h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.main-container > div {
+    flex: auto;
 }
