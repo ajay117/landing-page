@@ -46,6 +46,7 @@ header a {
 }
 .hero-section {
     justify-content: space-between;
+    display: flex;
 }
 .hero-image {
     flex-basis: 400px;
@@ -180,7 +181,8 @@ header ul,
 /* Styles for differenct screen sizes */
 @media screen and (max-width: 500px) {
     header,
-    header ul {
+    header ul,
+    .hero-section {
         justify-content: center;
     }
     header ul li {
@@ -189,5 +191,20 @@ header ul,
     }
     .logo {
         margin-bottom: 25px;
+        text-align: center;
+    }
+    .hero-section {
+        text-align: center;
+    }
+    .hero-section h2 {
+        font-size: 35px;
+    }
+    .hero-content {
+        order: 2;
+        margin-top: 45px;
+    }
+    .btn {
+        margin-top: 35px;
+        width: 100%;
     }
 }
