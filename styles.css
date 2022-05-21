@@ -176,3 +176,18 @@ header ul,
 .hero-section {
     flex-wrap: wrap;
 }
+
+/* Styles for differenct screen sizes */
+@media screen and (max-width: 500px) {
+    header,
+    header ul {
+        justify-content: center;
+    }
+    header ul li {
+        flex: 100%;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 25px;
+    }
+}
