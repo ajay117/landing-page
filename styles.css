@@ -49,7 +49,7 @@ header a {
 }
 .hero-image {
     flex-basis: 400px;
-    height: auto;
+    height: 200px;
     background-color: grey;
 }
 .hero-content {
@@ -81,10 +81,12 @@ header a {
     color: #ffffff;
     font-size: 18px;
     margin-top: 10px;
+    margin-bottom: 25px;
     font-weight: 400;
 }
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
     gap: 30px;
@@ -137,9 +139,10 @@ header a {
     margin-bottom: 120px;
     padding: 50px 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    line-height: 0.4;
+    /* line-height: 0.4; */
 }
 .action,
 .action button {
@@ -155,13 +158,21 @@ header a {
 }
 .action h1 {
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 .action p {
     color: #dadbde;
     font-size: 20px;
+    margin-top: 10px;
 }
 footer {
     color: #F9FAF8;
     text-align: center;
     font-size: 23px;
+}
+
+header,
+header ul,
+.hero-section {
+    flex-wrap: wrap;
 }
