@@ -207,4 +207,31 @@ header ul,
         margin-top: 35px;
         width: 100%;
     }
+    .quote {
+        padding: 120px 25px;
+    }
+    .quote-text {
+        font-size: 24px;
+    }
+    .quote-author {
+        font-size: 20px;
+    }
+    .action {
+        border-radius: 0;
+        text-align: center;
+    }
+    .action button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .action h1 {
+        font-size: 25px;
+    }
+    .action p {
+        font-size: 15px;
+    }
+    footer {
+        font-size: 15px;
+    }
 }
+
