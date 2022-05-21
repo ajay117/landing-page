@@ -112,7 +112,8 @@ header a {
     display: flex;
     flex-direction: column;
 }
-.main-container > div {
+.main-container > div,
+.main-container > footer {
     flex: auto;
 }
 .quote {
@@ -158,4 +159,9 @@ header a {
 .action p {
     color: #dadbde;
     font-size: 20px;
+}
+footer {
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 23px;
 }
