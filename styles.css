@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+
 *,
 *::before,
 *::after {
@@ -94,6 +95,10 @@ header a {
 /* .box p {
     color: #1f2937;
 } */
+.info {
+    padding-bottom: 100px;
+    width: 100%;
+}
 .info .img {
     height: 150px;
     border: 3px solid #3882F6;
@@ -109,4 +114,19 @@ header a {
 }
 .main-container > div {
     flex: auto;
+}
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 0;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-author {
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
 }
