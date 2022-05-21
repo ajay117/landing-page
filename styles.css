@@ -49,12 +49,12 @@ header a {
     display: flex;
 }
 .hero-image {
-    flex-basis: 400px;
+    flex: 200px;
     height: 200px;
     background-color: grey;
 }
 .hero-content {
-    flex-basis: 400px;
+    flex: 200px;
 }
 .hero-content h2 {
     font-weight: 900;
@@ -234,4 +234,3 @@ header ul,
         font-size: 15px;
     }
 }
-
